@@ -11,7 +11,6 @@ $(document).ready(function() {
 
   $(".place").click(function(event){
     $(event.target).parent().children(".landmarks").toggle();
-    console.log($(event.target).parent().children(".landmarks"));
   });
 
   // $("#place1").append(location1.image);
